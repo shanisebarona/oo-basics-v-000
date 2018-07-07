@@ -12,6 +12,7 @@ class Book
   def turn_page
     puts "Flipping the page...wow, you read fast!"
     if shoe.condition == "old", shoe.cobble == "new"
+    end
   end
 end
 
