@@ -11,9 +11,6 @@ class Shoe
   end
   
   def cobble
+    @condition = "new"
     puts "Your shoe is as good as new!"
-    if shoe.condition ="old" do 
-      shoe.cobble
-      shoe.condition ="new"
-  end
 end
